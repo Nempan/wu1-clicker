@@ -22,8 +22,91 @@
     --space-4xl-5xl: clamp(7.88rem, calc(7.14rem + 3.7vw), 10rem);
 }
 
+
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+.hero1 {
+    width: 100%;
+    height: 30vw;
+    position: relative;
+    background-image: url(/wu1-clicker/img/ad.jpg);
+    background-position: 1px;
+
+}
+
+.container {
+    margin-top: 1vw;
+}
+
+.ocean {
+    top: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.water {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    animation: water 10s linear infinite;
+
+
+}
+
+@keyframes water{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(1000px);
+    }
+}
+
+.cloud {
+    height: 40%;
+    position: absolute;
+    right: 0;
+    animation: cloud 10s linear infinite;
+    width: 500vw;
+
+}
+
+@keyframes cloud{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(600px);
+    }
+}
+
+.boat {
+    width: 350px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.boat img{
+    width: 100%;
+    
+}
+
+
 body {
-    background-color: var(--color-light);
+    background-color: lightcyan;
     color: var(--color-dark);
     font-family: sans-serif;
     font-size: var(--step-0);
@@ -86,7 +169,7 @@ audio {
     width: 100%;
     height: 40vh;
     aspect-ratio: 16/9;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .hero-content {
@@ -149,10 +232,14 @@ audio {
     text-transform: uppercase;
     font-weight: 700;
     cursor: pointer;
+    margin-left: 20%;
+    padding: 30%;
 }
 
 #game-button:hover {
     border-color: var(--color-dark-transparent);
+    background-color: var(--color-dark-transparent);
+    border-radius: 5%;
 }
 
 #game-button:active {
