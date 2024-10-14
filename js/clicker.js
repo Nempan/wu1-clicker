@@ -90,6 +90,7 @@ clickerButton.addEventListener(
  * Sist i funktionen så kallar den på sig själv igen för att fortsätta uppdatera.
  */
 function step(timestamp) {
+
     moneyTracker.textContent = Math.round(money);
     mpsTracker.textContent = moneyPerSecond;
     mpcTracker.textContent = moneyPerClick;
@@ -163,7 +164,7 @@ window.addEventListener('load', (event) => {
  */
 upgrades = [
     {
-        name: 'Slipade träbitar',
+        name: 'Träbitar du har slipat till fiskedrag',
         cost: 10,
         amount: 1,
     },
@@ -219,7 +220,7 @@ function createCard(upgrade) {
         if (money >= upgrade.cost) {
             acquiredUpgrades++;
             money -= upgrade.cost;
-            upgrade.cost *= 1.5;
+            upgrade.cost *= 1.2;
             cost.textContent = 'Köp för ' + upgrade.cost + ' Fiskar';
             moneyPerSecond += upgrade.amount ? upgrade.amount : 0;
             moneyPerClick += upgrade.clicks ? upgrade.clicks : 0;
