@@ -1,0 +1,22 @@
+Det jag har gjort bra:
+Jag har lärt mig att använda mig av keyframes så att mitt spel blir lite mer immersivt.
+Jag har använt ett bra koncept och ett tema som följt med hela vägen.
+
+Det jag gjort mindre bra:
+Jag har inte gjort sidan riktigt responsiv och fått vissa element att fungera i andra upplösningar.
+
+Molnen är väldigt strechad och därför ser det lite konstigt ut.
+
+Min fiske knapp har inget ljud när man klickar och inte heller upgrades så därför har mitt spel inte lika mycket juice som den hade kunnat ha.
+
+Vad jag tagit med mig:
+Jag har lärt mig att använda keyframes och få vissa animationer att fungera men även utvidgat min förståelse av HTML, CSS och JavaScript.
+
+Vill lära mig:
+
+Att förstå alla tre språk mer väl så jag vet exakt vad jag gör och kan lösa alla problem jag har samt att få allt att se bra ut.
+
+JavaScript kan jag typ inget om så det hade varit något jag hade behövt lära mig eller öva på. 
+
+
+

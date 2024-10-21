@@ -235,6 +235,8 @@ function createCard(upgrade) {
     return card;
 }
 
+
+
 /* Message visar hur vi kan skapa ett html element och ta bort det.
  * appendChild används för att lägga till och removeChild för att ta bort.
  * Detta görs med en timer.
