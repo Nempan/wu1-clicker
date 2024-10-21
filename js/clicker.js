@@ -220,7 +220,7 @@ function createCard(upgrade) {
         if (money >= upgrade.cost) {
             acquiredUpgrades++;
             money -= upgrade.cost;
-            upgrade.cost *= 1.2;
+            upgrade.cost *= 1.3;
             cost.textContent = 'Köp för ' + upgrade.cost + ' Fiskar';
             moneyPerSecond += upgrade.amount ? upgrade.amount : 0;
             moneyPerClick += upgrade.clicks ? upgrade.clicks : 0;
