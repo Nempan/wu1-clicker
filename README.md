@@ -1,3 +1,13 @@
+ {
+        title: 'Big Bass',
+        tagline: 'Fånga massa fiskar tillsammans med din togna båt',
+        url: 'https://nempan.github.io/wu1-clicker/',
+        git: 'https://github.com/Nempan/wu1-clicker',
+        author: 'Nemo S'
+    },
+
+
+
 # Clicker, webbprojekt
 
 Du har fått i uppdrag att designa och skapa ett clicker-spel från Kakmonstret AB.
