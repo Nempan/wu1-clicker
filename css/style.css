@@ -236,6 +236,12 @@ audio {
     padding: 0;
 }
 
+#upgradelist div{
+    border-radius: 20px;
+    background-color: rgb(168, 226, 253);
+    border-width: 3px;
+}
+
 /* game-currency är en lista med list items */
 .item > h3 {
     display: flex;
